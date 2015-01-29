@@ -15,4 +15,11 @@ class Course {
         var_dump($functionName);
         var_dump($arguments);
     }
+
+    function __sleep
+    {
+
+        echo "i m sleeping";
+    }
+
 }

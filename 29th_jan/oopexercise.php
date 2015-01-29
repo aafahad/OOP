@@ -26,4 +26,11 @@ $course->getLessons();
 
 //var_dump($course);
 
+$myarray = ['mim','tumpa','fahad']
+$srmyarray = serialize($myarray);
+
+print_r(unserialize($srmyarray));
+
+
+
 ?>
