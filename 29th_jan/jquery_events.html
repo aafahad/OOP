@@ -7,12 +7,52 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-</head>
-<body>
 
-<script type="text/javascript">
-    alert("I want to sleep...i don't want to do work!!!");
-</script>
+
+    <script>
+
+        $(document).ready(function() {
+        alert("I want to sleep...i don't want to do work!!!");
+        });
+
+
+
+        $(document).ready(function(){
+            $("p").click(function(){
+                alert("clicked single time");
+            });
+        });
+
+
+        $(document).ready(function(){
+            $("p").dblclick(function(){
+                $(this).hide();
+            });
+        });
+
+
+        $(document).ready(function(){
+            $("input").focus(function(){
+                $("span").css("display","inline").fadeOut(2000);
+            });
+        });
+
+
+        $(document).ready(function(){
+            $("p").mouseover(function(){
+                $("p").css("background-color","yellow");
+            });
+            $("p").mouseout(function(){
+                $("p").css("background-color","lightgray");
+            });
+        });
+
+    </script>
+
+
+</head>
+
+<body>
 
 
 
@@ -23,11 +63,26 @@
     <input type="text" name="form field" value="">
     <br>
 
-    <input type="button" value="Submit">
+    <input type="button" value="submit" id="BoxId">
 </form>
 
 
+<p>Single-click</p>
 
+
+
+<p>Double-click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+
+
+<input>
+<span>Can I have you phone number?</span>
+<p>Click in the input field to get focus.</p>
+
+
+<p>Move the mouse pointer over this paragraph.</p>
 
 </body>
 </html>

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6f46489-d219-40b3-a9ee-58b711ce1310" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/29th_jan/jquery_events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/29th_jan/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/29th_jan/jquery_events.html" afterPath="$PROJECT_DIR$/29th_jan/jquery_events.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OOP.iws" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="jquery_events.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/29th_jan/jquery_events.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.73867595" vertical-offset="11" max-vertical-offset="585">
+            <state line="84" column="50" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.76480836" vertical-offset="821" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -54,6 +55,7 @@
         <option value="$PROJECT_DIR$/29th_jan/oopexercise.php" />
         <option value="$PROJECT_DIR$/29th_jan/classes/Course.php" />
         <option value="$PROJECT_DIR$/29th_jan/jquery_events.php" />
+        <option value="$PROJECT_DIR$/29th_jan/buttons.html" />
         <option value="$PROJECT_DIR$/29th_jan/jquery_events.html" />
       </list>
     </option>
@@ -288,9 +290,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/29th_jan/buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="81" selection-end="81" vertical-scroll-proportion="0.20905924" vertical-offset="0" max-vertical-offset="574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/29th_jan/jquery_events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.73867595" vertical-offset="11" max-vertical-offset="585">
+        <state line="84" column="50" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.76480836" vertical-offset="821" max-vertical-offset="1410">
           <folding />
         </state>
       </provider>
